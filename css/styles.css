@@ -417,6 +417,11 @@ body {
 
 /* portfolio list */
 .port-title {
+   margin-top: 20px;
+   margin-bottom: 4px;
+   margin-left: 24px;
+   margin-right: 24px;
+
    color: var(--primary-text-color);
    font-size: 18px;
    line-height: 2;
@@ -424,6 +429,11 @@ body {
 }
 
 .port-link {
+   margin-top: 4px;
+   margin-bottom: 20px;
+   margin-left: 24px;
+   margin-right: 24px;
+
    color: var(--title-text-color);
    font-size: 16px;
    line-height: 1,87;
@@ -458,7 +468,6 @@ body {
    flex-wrap: wrap;
    margin-bottom: 94px;
 
-
 }
 
 
@@ -468,6 +477,8 @@ body {
 
    margin-right: 30px;
    margin-bottom: 30px;
+   border: 1px solid #EEEEEE;
+   box-sizing: border-box;
 }
 
 .flex-element:nth-child(3n) {
